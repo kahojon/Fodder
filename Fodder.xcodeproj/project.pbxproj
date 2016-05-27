@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB17880D1CE521380034170B /* CookProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17880C1CE521380034170B /* CookProfileTableViewCell.swift */; };
+		AB17880F1CE6083C0034170B /* KitchenProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17880E1CE6083C0034170B /* KitchenProfile.swift */; };
+		AB1788111CE60DAB0034170B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1788101CE60DAB0034170B /* RatingControl.swift */; };
 		AB68C6F31CE519CB00B68DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68C6F21CE519CB00B68DF6 /* AppDelegate.swift */; };
-		AB68C6F51CE519CB00B68DF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68C6F41CE519CB00B68DF6 /* ViewController.swift */; };
 		AB68C6F81CE519CB00B68DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB68C6F61CE519CB00B68DF6 /* Main.storyboard */; };
 		AB68C6FA1CE519CB00B68DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB68C6F91CE519CB00B68DF6 /* Assets.xcassets */; };
 		AB68C6FD1CE519CB00B68DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB68C6FB1CE519CB00B68DF6 /* LaunchScreen.storyboard */; };
 		AB68C7081CE519CB00B68DF6 /* FodderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68C7071CE519CB00B68DF6 /* FodderTests.swift */; };
+		AB68C7131CE51A0E00B68DF6 /* CookProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68C7121CE51A0E00B68DF6 /* CookProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB17880C1CE521380034170B /* CookProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookProfileTableViewCell.swift; sourceTree = "<group>"; };
+		AB17880E1CE6083C0034170B /* KitchenProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitchenProfile.swift; sourceTree = "<group>"; };
+		AB1788101CE60DAB0034170B /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../../FodderTest/FodderTest/RatingControl.swift; sourceTree = "<group>"; };
 		AB68C6EF1CE519CB00B68DF6 /* Fodder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fodder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB68C6F21CE519CB00B68DF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB68C6F41CE519CB00B68DF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB68C6F71CE519CB00B68DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB68C6F91CE519CB00B68DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB68C6FC1CE519CB00B68DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		AB68C7031CE519CB00B68DF6 /* FodderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FodderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB68C7071CE519CB00B68DF6 /* FodderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FodderTests.swift; sourceTree = "<group>"; };
 		AB68C7091CE519CB00B68DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB68C7121CE51A0E00B68DF6 /* CookProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CookProfileTableViewController.swift; path = ../CookProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,12 @@
 		AB68C6F11CE519CB00B68DF6 /* Fodder */ = {
 			isa = PBXGroup;
 			children = (
+				AB1788101CE60DAB0034170B /* RatingControl.swift */,
 				AB68C6F21CE519CB00B68DF6 /* AppDelegate.swift */,
-				AB68C6F41CE519CB00B68DF6 /* ViewController.swift */,
 				AB68C6F61CE519CB00B68DF6 /* Main.storyboard */,
+				AB17880E1CE6083C0034170B /* KitchenProfile.swift */,
+				AB17880C1CE521380034170B /* CookProfileTableViewCell.swift */,
+				AB68C7121CE51A0E00B68DF6 /* CookProfileTableViewController.swift */,
 				AB68C6F91CE519CB00B68DF6 /* Assets.xcassets */,
 				AB68C6FB1CE519CB00B68DF6 /* LaunchScreen.storyboard */,
 				AB68C6FE1CE519CB00B68DF6 /* Info.plist */,
@@ -197,8 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB68C6F51CE519CB00B68DF6 /* ViewController.swift in Sources */,
+				AB17880D1CE521380034170B /* CookProfileTableViewCell.swift in Sources */,
 				AB68C6F31CE519CB00B68DF6 /* AppDelegate.swift in Sources */,
+				AB17880F1CE6083C0034170B /* KitchenProfile.swift in Sources */,
+				AB1788111CE60DAB0034170B /* RatingControl.swift in Sources */,
+				AB68C7131CE51A0E00B68DF6 /* CookProfileTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +402,7 @@
 				AB68C70E1CE519CB00B68DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB68C70F1CE519CB00B68DF6 /* Build configuration list for PBXNativeTarget "FodderTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +411,7 @@
 				AB68C7111CE519CB00B68DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
