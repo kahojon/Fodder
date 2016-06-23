@@ -32,7 +32,7 @@ class CookProfileTableViewController: UITableViewController {
     func loadSampleKitchen(){
         let photo1 = UIImage(named: "profileBanner")!
         let photo2 = UIImage(named: "cookProfile")!
-        let kitchenProfile = KitchenProfile(cookName: "Jonathan Leung", bannerPhoto: photo1, profilePhoto: photo2, rating: 0, kitchenName: "Chez Jonathan", location: "Montreal, QC  4.0 km", distance: "14 km")!
+        let kitchenProfile = KitchenProfile(cookName: "Jonathan Leung", bannerPhoto: photo1, profilePhoto: photo2, rating: 5, kitchenName: "Chez Jonathan", location: "Montreal, QC  4.0 km", distance: "14 km")!
         let jennyShen = KitchenProfile(cookName: "Jenny Shen", bannerPhoto: UIImage(named: "cookiesJenny"), profilePhoto: UIImage(named: "jennyShen"), rating: 4, kitchenName: "Chez Jenny", location: "Montreal, QC  5.0 km", distance: "5.0 km")!
         let christinaSvoboda = KitchenProfile(cookName: "Christina Svoboda", bannerPhoto: UIImage(named: "sushi"), profilePhoto: UIImage(named: "christinaSvo"), rating: 5, kitchenName: "Chez Christina", location: "Montreal, QC  10.0 km", distance: "15.0 km")!
         let emilyWang = KitchenProfile(cookName: "Emily Wang", bannerPhoto: UIImage(named: "cupcake"), profilePhoto: UIImage(named: "emily"), rating: 3, kitchenName: "Chez Emily", location: "Montreal, QC  15.0 km", distance: "15.0 km")!
